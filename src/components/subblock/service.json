@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_subblock_services",
+  "info": {
+    "displayName": "Service",
+    "icon": "hands-helping",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "maxLength": 150,
+      "minLength": 30
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

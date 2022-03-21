@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_block_whyuses",
+  "info": {
+    "displayName": "WhyUs",
+    "icon": "user-secret",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "default": "Why Us?",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "minLength": 40,
+      "maxLength": 150
+    },
+    "whyuselement": {
+      "type": "component",
+      "repeatable": true,
+      "component": "subblock.why-us-element"
+    }
+  }
+}

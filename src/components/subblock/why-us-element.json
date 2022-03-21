@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_subblock_why_us_elements",
+  "info": {
+    "displayName": "WhyUsElement",
+    "icon": "list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

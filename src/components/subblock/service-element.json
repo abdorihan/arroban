@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_subblock_service_elements",
+  "info": {
+    "displayName": "ServiceElement",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "service": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service.service"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_block_services",
+  "info": {
+    "displayName": "Services",
+    "icon": "child",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "subblock.service"
+    },
+    "name": {
+      "type": "string",
+      "default": "Our Services"
+    }
+  }
+}

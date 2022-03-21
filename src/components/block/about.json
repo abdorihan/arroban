@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_block_abouts",
+  "info": {
+    "displayName": "About",
+    "icon": "info-circle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "default": "About Us"
+    },
+    "aboutbrief": {
+      "type": "text",
+      "required": true
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
