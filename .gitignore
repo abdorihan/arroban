@@ -32,6 +32,7 @@ $RECYCLE.BIN/
 *.msp
 
 
+
 ############################
 # Packages
 ############################
@@ -65,11 +66,15 @@ $RECYCLE.BIN/
 # Logs and databases
 ############################
 
-.tmp
-*.log
-*.sql
-*.sqlite
-*.sqlite3
+# .tmp
+# *.log
+# *.sql
+# *.sqlite
+# *.sqlite3
+
+#assests/*
+#public/uploads/*
+#!public/uploads/.gitkeep
 
 
 ############################
@@ -80,8 +85,7 @@ $RECYCLE.BIN/
 ssl
 .idea
 nbproject
-public/uploads/*
-!public/uploads/.gitkeep
+
 
 ############################
 # Node.js
